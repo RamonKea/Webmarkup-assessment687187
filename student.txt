@@ -1,0 +1,4 @@
+Student name: Ramon Kea
+Student number: 687187
+Student class: INF1C
+URL student GitHub repository: https://github.com/RamonKea/Webmarkup-assessment687187.git
