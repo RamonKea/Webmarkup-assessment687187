@@ -1,9 +1,10 @@
 body {
-    background-color: #8f0e0e;
+    margin: 1rem;
+    background-color: #336d49;
 }
 
 header {
-    color: #6812da;
+    position: relative;
 }
 
 h1 {
@@ -18,14 +19,30 @@ nav {
     color: #eedf0d;
 }
 
-li {
-    color: #eedf0d;
-}
-
-ul {
-    color: #eedf0d;
+p {
+    color: rgb(201, 22, 22);
 }
 
 footer {
-    color: 	#D891EF;
+    color: 	#000000;
+}
+
+.cookie {
+    position: fixed;
+    right: 1rem;
+    bottom: 2.3rem;
+    margin-bottom: 16.5px;
+    margin-right: 23.5px;
+    z-index: 9999;
+    color: #FFF;
+    background-color: rgba(255, 170, 0, 0.5);
+}
+
+.statement {
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    z-index: 9999;
+    color: #FFF;
+    background-color: rgba(255, 170, 0, 0.5);
 }
