@@ -6,10 +6,11 @@
         <meta name="description" content="Promo content for destinations">
         <meta name="keywords" content="travel, destination, discover">
         <meta name="author" content="Ramon Kea">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
-    <body>
-        <header>
+    <body id="flexbox-container">
+        <header id="header-flexbox">
             <img src="img/website-logo.png" alt="Het logo van Travel & Discover" title="Travel & Discover logo"/>
             <h1>Travel & Discover</h1>
             <h2>Fulfill your urge to explore</h2>
@@ -22,19 +23,25 @@
                 <li class="nav-item"> <a href=contact.html> contact </a> </li>
             </ul>
         </nav>
-        <section>
+        <section id="video-section">
             <h2>Venetië</h2>
-            <video id="promotion-movie" autoplay>
-                <source src="/movie/Venice-short.mp4" type="video/mp4">
-                <source src="/movie/Venice-short.ogg" type="video/ogg">
+            <video id="promotion-video" autoplay>
+                <source src="/video/Venice-short.mp4" type="video/mp4">
+                <source src="/video/Venice-short.ogg" type="video/ogg">
                 Your browser does not support the video tag.
             </video>
-            <footer>Bron: &copy; 2021 Expedia.nl</footer>
+            <footer>
+                <p> 
+                    <em>Bron &copy; 2021 tui.nl</em> 
+                </p> 
+            </footer>
         </section>
-        <section>
-            <h2>Ontdek de prachtigste landen zoals:</h2>
-            <article class="destination-article">
-                <header> <h3>Italië</h3> </header>
+        <section id="article-section">
+            <h3>Ontdek de prachtigste landen</h3>
+            <article class="article-one">
+                <header> 
+                    <h4>Italië</h4> 
+                </header>
                 <p> 
                     <a href="https://www.tui.nl/informatie/italie/">
                     <img class="destination-image" src="img/destination-Italy.jpg" alt="https://www.tui.nl/informatie/italie/">
@@ -48,10 +55,14 @@
                     Venetië met haar door gondola's bevaren kanalen, prachtige paleizen en talloze bruggen is eigenlijk een verhaal apart.
                 </P>
                 <p> <a href="https://www.tui.nl/informatie/italie/">meer info</a> </p>
-                <footer>Bron: &copy; 2021 Tui.nl</footer>
+                <footer>
+                    <p> 
+                        <em>Bron &copy; 2021 tui.nl</em> 
+                    </p> 
+                </footer>
             </article>
-            <article class="destination-articles">
-                <header> <h3>Oostenrijk</h3> </header>
+            <article id="article-two">
+                <header> <h4>Oostenrijk</h4> </header>
                 <p> 
                     <a href="https://www.tui.nl/informatie/oostenrijk/">
                         <img class="destination-image" src="img/destination-austria.jpg" alt="https://www.tui.nl/informatie/oostenrijk/">
@@ -64,11 +75,19 @@
                     Voor elk wat wils, van trendy wintersportplaatsen met een internationale sfeer tot gemoedelijke bergdorpjes. 
                     De dorpen Hippach, Mayrhofen, Finkenberg en Tux hebben hun gebieden op elkaar aangesloten tot één groot, gemeenschappelijk skigebied: Ski Zillertal 3000.
                 </P>
-                <p> <a href="https://www.tui.nl/informatie/oostenrijk/">meer info</a> </p>
-                <footer>Bron: &copy; 2021 Tui.nl</footer>
+                <p> 
+                    <a href="https://www.tui.nl/informatie/oostenrijk/">meer info</a> 
+                </p>
+                <footer>
+                    <p> 
+                        <em>Bron &copy; 2021 tui.nl</em> 
+                    </p> 
+                </footer>
             </article>
-            <article class="destination-article">
-                <header> <h3>Mexico</h3> </header>
+            <article class="article-three">
+                <header> 
+                    <h4>Mexico</h4> 
+                </header>
                 <p> 
                     <a href="https://www.tui.nl/informatie/mexico/">
                         <img class="destination-image" src="img/destination-mexico.jpg" alt="https://www.tui.nl/informatie/mexico/">
@@ -76,26 +95,39 @@
                 </p>
                 <P>
                     Cultuurhistorisch gezien steekt Mexico met kop en schouders boven de andere landen uit. 
-                    Hier komen we volkeren tegen die niet alleen prachtige en indrukwekkende gebouwen en zelfs hele steden neerzetten, maar die zich ook nog eens generaties lang moesten weren tegen de invloed van concurrerende stammen en uiteindelijk tegen de Spanjaarden. 
+                    Hier komen we volkeren tegen die niet alleen prachtige en indrukwekkende gebouwen en zelfs hele steden neerzetten, 
+                    maar die zich ook nog eens generaties lang moesten weren tegen de invloed van concurrerende stammen en uiteindelijk tegen de Spanjaarden. 
                     Mexico is een land van kleurrijke fiëstas en boeiende contrasten. 
                     Van onvoorstelbare culturele schatten uit de tijd van de Tolteken, Azteken en Mayas tot Spaans koloniale erfenissen in plaatsen als Oaxaca en Merida. 
                     Droge woestijnvlaktes, tropische regenwouden, prachtige koraalriffen en hoge bergen karakteriseren het betoverende landschap van Mexico.
                 </P>
-                <p> <a href="https://www.tui.nl/informatie/mexico/">meer info</a> </p>
-                <footer>Bron: &copy; 2021 Tui.nl</footer>
+                <p> 
+                    <a href="https://www.tui.nl/informatie/mexico/">meer info</a> 
+                </p>
+                <footer>
+                    <p> 
+                        <em>Bron &copy; 2021 tui.nl</em> 
+                    </p> 
+                </footer>
             </article>
         </section>
-        <aside>
+        <aside id="upcoming-routes-list">
+            <h3>Steeds populairdere reisbestemmingen</h3>
             <ol>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>Ninh Binh. Dit gebied diende als decor voor verschillende bekende films.</li>
+                <li>Seogwipo. Het water is ideaal voor actieve reizigers en duikliefhebbers.</li>
+                <li>Salta. Het heeft koloniale architectuur en een kleurrijk, uniek landschap.</li>
+                <li>San Juan. Is een bestemming met een bruisende cultuur en architectuur.</li>
+                <li>Jodhpur. Het is een van de kleurrijkste steden ter wereld.</li>
             </ol>
+            <p> 
+                <em>Bron &copy; 2021 tui.nl</em> 
+            </p> 
         </aside>
-        <footer>
-            <p>&copy; 2021 Ramon Kea</p>
+        <footer id="footer-flexbox">
+            <p> 
+                <em>&copy; 2021 Ramon Kea</em> 
+            </p> 
             <p class="cookie-statement">Cookie statement</p>
         </footer>
     </body>
